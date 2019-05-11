@@ -9,7 +9,7 @@ return;
         let url = `https://nekobot.xyz/api/imagegen?type=trumptweet&text=${args.join(" ")}`
         get(url).then(res => {
             const embed = new Discord.RichEmbed()
-            .setColor("fea5ff")
+            .setColor("#0078ff")
             .setAuthor("big boi Trump tweeted...")
             .setImage(res.body.message)
             setTimeout(() => {

@@ -15,7 +15,7 @@ module.exports.run = async (bot, message, args) => {
         let url = `https://nekobot.xyz/api/imagegen?type=phcomment&image=${target.avatarURL}&username=${target.username}&text=${args.slice(usermentioned).join(" ")}`
         get(url).then(res => {
             const embed = new Discord.RichEmbed()
-            .setColor("fea5ff")
+            .setColor("#0078ff")
             .setAuthor("woah, naughty!")
             .setImage(res.body.message)
             setTimeout(() => {

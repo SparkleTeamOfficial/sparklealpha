@@ -9,7 +9,7 @@ return;
         let url = `https://nekobot.xyz/api/imagegen?type=clyde&text=${args.join(" ")}`
         get(url).then(res => {
             const embed = new Discord.RichEmbed()
-            .setColor("fea5ff")
+            .setColor("#0078ff")
             .setAuthor("Clyde says..")
             .setImage(res.body.message)
             setTimeout(() => {
