@@ -1,6 +1,6 @@
 const { exec } = require("child_process");
 module.exports.run = async (bot, message, args) => {
-    if (!message.author.id === "208688963936845824") return;
+    if (!message.author.id === "281667533453524994") return;
     try {
         const outputErr = (message, stdData) => {
             const { stdout, stderr } = stdData;

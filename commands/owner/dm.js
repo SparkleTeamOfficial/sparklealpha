@@ -1,5 +1,5 @@
 module.exports.run = async (bot, message, args) => {
-    if(message.author.id === "208688963936845824"){
+    if(message.author.id === "281667533453524994"){
             const sayMessage = args.slice(1).join(' ')
 
             let client = message.channel.client;

@@ -1,5 +1,5 @@
 module.exports.run = async (bot, message, args) => {
-    if (message.author.id === "208688963936845824") {
+    if (message.author.id === "281667533453524994") {
         await message.channel.send("Restarting bot...");
         await process.exit()
     } else {

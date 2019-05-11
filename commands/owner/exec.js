@@ -3,7 +3,7 @@ module.exports.run = async (bot, message, args) => {
     const {
         exec
     } = require('child_process');
-    if (!message.author.id === "208688963936845824") return;
+    if (!message.author.id === "281667533453524994") return;
     let messagep = await message.channel.send('Processing...') 
     exec(args.join(' '), (err, stdout, stderr) => {
         if (err) {
