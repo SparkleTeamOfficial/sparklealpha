@@ -12,7 +12,7 @@ return;
 .setAuthor(res.body.title)
 .setDescription(`${res.body.description}\n\n**[only click if you trust the link.](${res.body.url})**`)
 .setFooter("This is not a validated tool, nothing is 100%", bot.user.displayAvatarURL)
-            .setColor("fea5ff")
+            .setColor("#0078ff")
             .setImage(res.body.image)
             setTimeout(() => {
                 return message.channel.send(embed);

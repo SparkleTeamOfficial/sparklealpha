@@ -8,7 +8,7 @@ let embed = new Discord.RichEmbed()
 .setFooter(`ID: ${message.author.id}`)
 .setTitle("NEW SUGGESTION", `https://discordapp.com/channels/${message.guild.id}/${message.channel.id}/${message.id}`)
 .setDescription(`**By:** ${message.author.tag}.\n\n__**Suggestion:**__\n${args.join(" ")}`)
-bot.channels.get("332567384806391823").send(embed)
+bot.channels.get("576121771430903808").send(embed)
 }
 module.exports.command = {
 name: 'suggest',
